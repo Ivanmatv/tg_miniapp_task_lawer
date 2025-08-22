@@ -396,7 +396,7 @@ async function handleFileUpload(fileNumber, fieldId) {
         const timezoneOffset = now.getTimezoneOffset();
         const moscowTime = new Date(now.getTime() + (180 + timezoneOffset) * 60 * 1000);
         const formattedDateTime = moscowTime.toISOString();
-        extraData[DATE_FIELD_ROUTE] = formattedDateTime;
+        // extraData[DATE_FIELD_ROUTE] = formattedDateTime;
         
         // Обновление записи в базе данных с дополнительными данными
         await updateRecord(currentRecordId, fieldId, file, extraData);
