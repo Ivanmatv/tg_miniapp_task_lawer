@@ -14,7 +14,7 @@ const FILE_UPLOAD_ENDPOINT = `${BASE_URL}/api/v2/storage/upload`;
 
 // ID полей для загрузки заданий
 const ROUTE = "cc2d58tza3k7v40"; // Маршрут
-const DATE_FIELD_ROUTE = "c34h70zdk40jarw"  // Дата загрузик маршрута
+// const DATE_FIELD_ROUTE = "c34h70zdk40jarw"  // Дата загрузик маршрута
 
 // Ключ 
 const API_KEY = "N0eYiucuiiwSGIvPK5uIcOasZc_nJy6mBUihgaYQ";
